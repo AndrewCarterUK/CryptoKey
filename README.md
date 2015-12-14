@@ -9,7 +9,7 @@
 
 A tool for generating keys using a CSPRNG.
 
-If you have OpenSSL installed, [read below](#an-alternative-openssl) (as you probably do not need to install this tool).
+If you have OpenSSL installed [read below](#an-alternative-openssl), as you probably do not need to install this tool.
 
 
 ## How To Install
