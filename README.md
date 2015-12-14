@@ -9,14 +9,8 @@
 
 A tool for generating keys using a CSPRNG.
 
-## An Alternative: OpenSSL
+If you have OpenSSL installed, [read below](#an-alternative-openssl) (as you probably do not need to install this tool).
 
-If you have OpenSSL installed, you may find that the command(s) below is sufficient for your needs:
-
-```sh
-openssl rand -base64 32
-openssl rand -hex 32
-```
 
 ## How To Install
 
@@ -45,3 +39,11 @@ $ cryptokey generate --entropy=64
 ladkecOLF7RvMl/J5EGr/SMz5InfSyX+DA9CvecE/OiVFndnMqgvfLofNGO6/Gc5P1Io+eHYhcJphIRHCB9Kpg==
 ```
 
+## An Alternative: OpenSSL
+
+If you have OpenSSL installed, you may find that the command(s) below is sufficient for your needs:
+
+```sh
+openssl rand -base64 32
+openssl rand -hex 32
+```
