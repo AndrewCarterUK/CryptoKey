@@ -39,6 +39,10 @@ $ cryptokey generate --entropy=64
 ladkecOLF7RvMl/J5EGr/SMz5InfSyX+DA9CvecE/OiVFndnMqgvfLofNGO6/Gc5P1Io+eHYhcJphIRHCB9Kpg==
 ```
 
+You can use the `--format` option to switch between `base64` (default) and `hex` output.
+
+You can use the `--entropy` option to select the number of bytes of entropy. The default is 32 bytes (256 bits).
+
 ## An Alternative: OpenSSL
 
 If you have OpenSSL installed, you may find that the command(s) below is sufficient for your needs:
@@ -47,3 +51,7 @@ If you have OpenSSL installed, you may find that the command(s) below is suffici
 openssl rand -base64 32
 openssl rand -hex 32
 ```
+
+The OpenSSL command hase `-base64` and `-hex` options for switching between `base64` and `hex` output.
+
+The final argument is the number of bytes of entropy to draw. The number of bits of entropy is this number multiplied by 8.
