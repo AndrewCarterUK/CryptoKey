@@ -9,6 +9,14 @@
 
 A tool for generating keys using a CSPRNG.
 
+If you are on a unix machine (with openssl installed), you may find that the command below is sufficient for your needs (and will not require you to install any additional software):
+
+```sh
+head -c 32 /dev/urandom | openssl base64
+```
+
+This draws 32 bytes (256 bits) of random data from `/dev/urandom` and pipes it to the openssl base64 encoder.
+
 ## How To Install
 
 ```sh
