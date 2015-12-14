@@ -1,6 +1,11 @@
 # CryptoKey
 
+[![Latest Stable Version](https://poser.pugx.org/andrewcarteruk/cryptokey/v/stable)](https://packagist.org/packages/andrewcarteruk/cryptokey)
 [![Build Status](https://travis-ci.org/AndrewCarterUK/CryptoKey.svg)](https://travis-ci.org/AndrewCarterUK/CryptoKey)
+[![Code Coverage](https://scrutinizer-ci.com/g/AndrewCarterUK/CryptoKey/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/AndrewCarterUK/CryptoKey/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/AndrewCarterUK/CryptoKey/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/AndrewCarterUK/CryptoKey/?branch=master)
+[![Total Downloads](https://poser.pugx.org/andrewcarteruk/cryptokey/downloads)](https://packagist.org/packages/andrewcarteruk/cryptokey)
+[![License](https://poser.pugx.org/andrewcarteruk/cryptokey/license)](https://packagist.org/packages/andrewcarteruk/cryptokey)
 
 A tool for generating keys using a CSPRNG.
 
