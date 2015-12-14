@@ -1,5 +1,7 @@
 # CryptoKey
 
+[![Build Status](https://travis-ci.org/AndrewCarterUK/CryptoKey.svg)](https://travis-ci.org/AndrewCarterUK/CryptoKey)
+
 A tool for generating keys using a CSPRNG.
 
 ## How To Install
