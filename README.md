@@ -21,7 +21,7 @@ Make sure you have added your global composer binary directory to the PATH in yo
 export PATH=~/.composer/vendor/bin:$PATH
 ```
 
-[This blog](https://akrabat.com/global-installation-of-php-tools-with-composer/) explains the process in more detail.
+[This blog](https://akrabat.com/global-installation-of-php-tools-with-composer/) explains the process of global composer installs in more detail.
 
 ## Usage
 
