@@ -1,0 +1,22 @@
+#!/usr/bin/env php
+<?php
+
+$autoloadPaths = [
+    __DIR__ . '/vendor/autoload.php',
+    __DIR__ . '/../../autoload.php',
+];
+
+foreach ($autoloadPaths as $autoloadPath) {
+    if (file_exists($autoloadPath)) {
+        require_once $autoloadPath;
+        break;
+    }
+}
+
+use AndrewCarterUK\CryptoKey\Command\GenerateCommand;
+use Symfony\Component\Console\Application;
+
+$application = new Application();
+$application->add(new GenerateCommand());
+
+$application->run();

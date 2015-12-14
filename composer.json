@@ -1,0 +1,36 @@
+{
+    "name": "andrewcarteruk/cryptokey",
+    "description": "A command line tool for generating keys using a CSPRNG.",
+    "keywords": [
+        "key",
+        "gen",
+        "keygen",
+        "generator",
+        "crypto"
+    ],
+    "homepage": "http://github.com/AndrewCarterUK/CryptoKey",
+    "license": "MIT",
+    "authors" : [
+        {
+            "name": "Andrew Carter",
+            "email": "andrewcarter1992@gmail.com",
+            "homepage": "http://andrewcarteruk.github.io/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "paragonie/random_compat": "^1.1",
+        "symfony/console": "^2.8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndrewCarterUK\\CryptoKey\\": "src/"
+        }
+    },
+    "bin": [
+        "cryptokey"
+    ]
+}
