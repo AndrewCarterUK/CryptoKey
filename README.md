@@ -48,8 +48,11 @@ You can use the `--entropy` option to select the number of bytes of entropy. The
 If you have OpenSSL installed, you may find that the command(s) below is sufficient for your needs:
 
 ```sh
-openssl rand -base64 32
-openssl rand -hex 32
+$ openssl rand -base64 32
+3cDyOf7I6P4sU+ImVmIJW8k/IzGyoCACaJi+PbVY+I8=
+
+$ openssl rand -hex 32
+78a59462d4264e29be184226e7a46de0df96f97682963977fe61970b632d9faa
 ```
 
 The OpenSSL command hase `-base64` and `-hex` options for switching between `base64` and `hex` output.
