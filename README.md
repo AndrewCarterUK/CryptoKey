@@ -11,6 +11,7 @@ A tool for generating keys using a CSPRNG.
 
 If you have OpenSSL installed [read below](#an-alternative-openssl), as you probably do not need to install this tool.
 
+By [AndrewCarterUK ![(Twitter)](http://i.imgur.com/wWzX9uB.png)](https://twitter.com/AndrewCarterUK)
 
 ## How To Install
 
