@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=5.4",
-        "paragonie/random_compat": "^1.1",
+        "paragonie/random_compat": "^1.1|^2.0",
         "symfony/console": "^2.8"
     },
     "require-dev": {
